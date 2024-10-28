@@ -9,10 +9,10 @@ on:
 jobs:
   TiebaSignIn:
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-lates
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4.2.0
     - name: Set up JDK 1.8
       uses: actions/setup-java@v1
       with:
